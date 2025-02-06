@@ -13,9 +13,9 @@
 	--font-nombre: 'Great Vibes', 'Lucida Handwriting', cursive;
 	--font-courgette: 'Courgette','Segoe Print', cursive;
 	--font-monoespaciado: 'Space Mono', 'Lucidatypewriter',monospace;
-	--logo-principal: url(../imagenes/logo.svg) no-repeat center;
-	--img-presentacion: url(../imagenes/fotodlr.png) no-repeat center;
-	--img-aboutme: white url(../imagenes/foto_aboutme.png) no-repeat center;
+	--logo-principal: url(../imagenes/Logo.png) no-repeat center;
+	--img-presentacion: url(../imagenes/Ari-foto.png) no-repeat center;
+	--img-aboutme: white url(../imagenes/Perfil.jpeg) no-repeat center;
 	--color--principal: var(--color-blue-l);
 	--color--background: var(--color-white);
 	--buton--darkmode: var(--color-lila);
@@ -483,7 +483,7 @@ footer{
 	text-align: center;
 }
 .home__foto{
-	width: 80%;
+	width: auto;
 	height: 100%;
 	background:var(--img-presentacion);
 	background-size: contain;
@@ -492,6 +492,8 @@ footer{
 	max-height: 280px;
 	min-width: 230px;
 	max-width: 300px;
+	border: 2px solid var(--color--principal);
+	border-radius: 50%;
 }
 .home__presentacion{
 	padding: 1em;
@@ -556,7 +558,7 @@ footer{
 }
 .aboutme__items__img{
 	background:var(--img-aboutme);
-	background-size: contain;
+	background-size: cover;
 	border-radius: 50%;
 	border: 2px solid white;
 	height: 170px;
@@ -645,22 +647,11 @@ footer{
 .formacion__targets__item .text__center{
 	color: #000017;
 }
-.formacion__targets__imagen{
-	width: 100%;
-	min-width: 120px;
-	min-height: 75%;
-	border-radius: 5px;
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
 .formacion__targets__imagen__img{
-	min-width: 50px;
-	max-height: 70px;
+	min-width: 25%;
+	max-height: 100px;
 	height: 90%;
-
+	background-size: contain;
 }
 	/*About me - Skills*/
 .skills__targets{

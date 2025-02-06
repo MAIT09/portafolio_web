@@ -32,9 +32,9 @@
 		const mesActual = parseInt(hoy.getMonth()) + 1;
 		const diaActual = parseInt(hoy.getDate());
 
-		const anhoCumple = 1998;
+		const anhoCumple = 2005;
 		const mesCumple = 3;
-		const diaCumple = 17;
+		const diaCumple = 9;
 		
 		let edad = anhoActual - anhoCumple;
 		if (mesActual < mesCumple) {

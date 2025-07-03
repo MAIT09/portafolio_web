@@ -158,7 +158,7 @@ function enviarFormulario(e) {
 			mensajeError.innerHTML = "Corregir campos marcados antes de enviar Formulario"
 		} else {
 			mensajeError.classList.remove("error");
-			fetch("https://formsubmit.co/dllanosr17@gmail.com", {
+			fetch("https://formsubmit.co/ariannemaite7@gmail.com", {
 				method: "POST",
 				body: new FormData(e.target)
 			})

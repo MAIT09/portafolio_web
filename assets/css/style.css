@@ -817,7 +817,7 @@ footer{
 .programacion__target__button{
  	width: 110px;
 	height: 35px;
-	font-size: 1em;
+	font-size: 0.8em;
 	border-radius: 10px 0;
 	border: var(--border--items);
 	color: var(--color--items);
@@ -874,28 +874,31 @@ footer{
 }
 .disenho__items__img {
 	margin: 0 auto;
-	height: 160px;
-	width: 160px;
+	height: 100%;
+	width: 98%;
 }
-.img__diegollanosr {
-	background: url(../imagenes/logo.svg) no-repeat center;
+.img__mobile {
+	background: url(../imagenes/ux.png) no-repeat center;
+	background-size: cover;
+}
+body.dark .img__mobile {
+	background: url(../imagenes/ux.png) no-repeat center;
+	background-size: cover;
+}
+.img__tablet {
+	background: url(../imagenes/youtube_tablet.jpg) no-repeat center;
+	background-size: cover;
+}
+body.dark .img__tablet {
+	background: url(../imagenes/youtube_tablet.jpg) no-repeat center;
+	background-size: cover;
+}
+.img__laptop {
+	background: url(../imagenes/youtube_laptop.jpg) no-repeat center;
 	background-size: contain;
 }
-.img__inmowasi {
-	background: url(../imagenes/logos/inmowasi.svg) no-repeat center;
-	background-size: contain;
-}
-body.dark .img__inmowasi {
-	background: url(../imagenes/logos/inmowasi_white.png) no-repeat center;
-	background-size: contain;
-}
-.img__palmeras {
-	background: url(../imagenes/logos/laspalmeras.png) no-repeat center;
-	background-size: contain;
-}
-
-.img__tavo {
-	background: url(../imagenes/logos/tavo.png) no-repeat center;
+body.dark .img__laptop {
+	background: url(../imagenes/youtube_laptop.jpg) no-repeat center;
 	background-size: contain;
 }
 
